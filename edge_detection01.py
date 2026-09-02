@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread("SIPI/misc/4.1.05.tiff")  # pick any image with clear edges
+img = cv2.imread("sipi-dataset/misc/4.1.05.tiff")  # pick any image with clear edges
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 gray = cv2.GaussianBlur(gray, (3, 3), 0)  # mild denoising before edge detection
 
