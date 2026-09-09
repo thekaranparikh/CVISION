@@ -1,2 +1,13 @@
-VPG/
-hpatches-sequences-release/
+# Ignore dataset
+256_ObjectCategories/
+
+# Ignore model artifacts and saved weights
+*.joblib
+
+# Ignore plot images
+*.png
+
+# Ignore virtual environment and cache folders
+cv-env/
+__pycache__/
+.pytest_cache/
